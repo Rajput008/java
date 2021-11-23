@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package project.pkg3;
+package project.pkg2;
 
 import java.util.Arrays;
 
@@ -12,10 +12,11 @@ import java.util.Arrays;
  * @author Rajput
  */
 public class sortstring {
-     public static void main(String args[])   
+    public static void main(String args[])   
 {  
-String[] fruits = {"Kiwi", "Blackberry","Fig","Apple", "Plum","Orange"};  
+String[] fruits = {"Kiwi", "Blackberry",  "Fig", "Apple", "Plum",  "Orange"};  
 Arrays.sort(fruits);  
 System.out.println(Arrays.toString(fruits));  
 }  
+
 }
